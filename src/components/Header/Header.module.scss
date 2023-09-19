@@ -1,0 +1,49 @@
+.header {
+  padding-block: .5rem;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.logoContainer {
+  --logo-color: darkturquoise;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .5rem;
+}
+
+.logo{
+  color: var(--logo-color);
+}
+
+.logoText {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--logo-color);
+
+  user-select: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    color: #ccc;
+  }
+}

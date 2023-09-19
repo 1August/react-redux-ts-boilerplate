@@ -1,0 +1,37 @@
+.button {
+  padding: .5rem 1rem;
+
+  &:active {
+    outline: 2px solid lightgray;
+  }
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid #0080ff;
+  color: #0080ff;
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.text {
+  background-color: transparent;
+  border: none;
+  color: #0080ff;
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.fill {
+  background-color: teal;
+  border: 1px solid #000;
+  color: #fff;
+
+  &:hover {
+    color: #ccc;
+  }
+}
